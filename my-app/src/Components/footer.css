@@ -1,0 +1,35 @@
+.Main_footer{
+    background-color: skyblue;
+}
+.footer{
+    background-color: skyblue;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+  }
+  
+  .subfooter ul li{
+    /* display: grid;
+    grid-template-columns: 3fr 3fr 3fr; */
+    text-decoration: none;
+  }
+  
+  .footer_ul li{
+    text-decoration: none;
+  }
+  
+
+  /* Add product */
+  .Addbutton{
+       margin: 10px;
+      background-color: skyblue;
+      width: 30%;
+      height: 8vh;
+      font-size: 20px;
+      cursor: pointer;
+  }
+  .invalid_input{
+    display: block;
+    color: red;
+    margin-top: -10px;
+    margin-left: -20px;
+  }
